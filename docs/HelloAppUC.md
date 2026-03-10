@@ -42,3 +42,25 @@ feature/UC3-optional-argument-handling
 Each feature branch will be merged into the **dev branch** using a Pull Request.
 
 Once all use cases are completed and tested, the **dev branch will be merged into main**.
+
+## UC1: Display Hello World
+
+Description:
+The app displays "Hello World" on the console when executed.
+
+Preconditions:
+App is launched.
+
+Main Flow:
+1. User runs the application
+2. App executes the main method
+3. App prints "Hello World" to the console
+4. App terminates
+
+Postconditions:
+Message is displayed to the user.
+
+Example Output:
+
+Hello World
+
