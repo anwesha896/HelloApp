@@ -64,3 +64,25 @@ Example Output:
 
 Hello World
 
+## UC2: Display Hello with Command-Line Argument
+
+Description:
+The app accepts a user's name as a command-line argument and displays a personalized greeting.
+
+Preconditions:
+App is launched with a command-line argument containing a name.
+
+Main Flow:
+1. User runs the application with a name argument.
+2. App reads the name from args[0].
+3. App prints "Hello, <name>!".
+4. App terminates.
+
+Postconditions:
+Personalized greeting is displayed.
+
+Example Output:
+
+Hello, Alice!
+
+
