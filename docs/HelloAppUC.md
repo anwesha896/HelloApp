@@ -109,3 +109,27 @@ Hello, Alice!
 Hello, World!
 
 
+## UC4: Display Hello with Multiple Command-Line Arguments or Default Message
+
+Description:
+The app accepts multiple names as command-line arguments and displays a personalized greeting for all names. If no names are provided, it defaults to "World".
+
+Preconditions:
+App is launched with zero or more command-line arguments.
+
+Main Flow:
+1. User runs the application with multiple names or no names.
+2. App checks if arguments exist.
+3. If present, it reads all names from the args array.
+4. If absent, it uses the default value "World".
+5. App joins the names with commas.
+6. App displays the greeting.
+
+Postconditions:
+Personalized greeting is displayed with all names or defaults to "Hello, World!".
+
+Example Output:
+
+Hello, Alice, Bob, Charlie!
+Hello, John!
+Hello, World!
