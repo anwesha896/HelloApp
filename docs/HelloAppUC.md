@@ -85,4 +85,27 @@ Example Output:
 
 Hello, Alice!
 
+## UC3: Display Hello with Command-Line Argument or Default Message
+
+Description:
+The app accepts a user's name as a command-line argument and displays a personalized greeting. If no name is provided, it defaults to "World".
+
+Preconditions:
+App is launched with or without a command-line argument.
+
+Main Flow:
+1. User runs the application with or without a name argument.
+2. App checks if an argument exists.
+3. If present, it uses args[0] as the name.
+4. If absent, it uses the default "World".
+5. App displays the greeting.
+
+Postconditions:
+Personalized greeting is displayed.
+
+Example Output:
+
+Hello, Alice!
+Hello, World!
+
 
