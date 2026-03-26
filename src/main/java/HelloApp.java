@@ -2,23 +2,22 @@ public class HelloApp {
 
     public static void main(String[] args) {
 
-        StringBuilder names = new StringBuilder();
-
+        // If no arguments, default to "World"
         if (args.length == 0) {
-            names.append("World");
+            System.out.println("Hello, World!");
         } else {
+            StringBuilder nameBuilder = new StringBuilder();
 
-            int count = 0;
-
+            // Append all names with ", "
             for (String name : args) {
-                if (count > 0) {
-                    names.append(", ");
-                }
-                names.append(name);
-                count++;
+                nameBuilder.append(name).append(", ");
             }
-        }
 
-        System.out.println("Hello, " + names + "!");
+            // Remove trailing ", "
+            String result = nameBuilder.substring(0, nameBuilder.length() - 2);
+
+            // Print final greeting
+            System.out.println("Hello, " + result + "!");
+        }
     }
 }
