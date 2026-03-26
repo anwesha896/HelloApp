@@ -159,4 +159,31 @@ Hello, Alice!
 Hello, World!
 
 
+## UC6: Display Hello with Multiple Command-Line Arguments using substring
+
+Description:
+The app accepts multiple names and prints a greeting. It uses substring() to remove the trailing comma and space. If no names are provided, it defaults to "World".
+
+Preconditions:
+App is launched with or without command-line arguments.
+
+Main Flow:
+1. User runs the application.
+2. App checks if arguments are present.
+3. If present, it iterates using enhanced for loop.
+4. Appends names with ", ".
+5. Uses substring() to remove trailing delimiter.
+6. Displays greeting.
+7. If no arguments, uses "World".
+
+Postconditions:
+Greeting is displayed.
+
+Example Output:
+
+Hello, Alice!
+Hello, Alice, Bob!
+Hello, World!
+
+
 
