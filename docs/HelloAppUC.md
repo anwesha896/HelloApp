@@ -186,4 +186,29 @@ Hello, Alice, Bob!
 Hello, World!
 
 
+## UC7: Display Hello with Multiple Command-Line Arguments using String.join()
+
+Description:
+The app accepts multiple names and prints a greeting using String.join(). If no names are provided, it defaults to "World".
+
+Preconditions:
+App is launched with or without command-line arguments.
+
+Main Flow:
+1. User runs the application.
+2. App checks if arguments are present.
+3. If present, it uses String.join() to combine names.
+4. Displays greeting.
+5. If no arguments, uses "World".
+
+Postconditions:
+Greeting is displayed.
+
+Example Output:
+
+Hello, Alice!
+Hello, Alice, Bob!
+Hello, World!
+
+
 
